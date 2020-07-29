@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def my_each(collection)
   if collection.length != 0
@@ -6,7 +6,7 @@ def my_each(collection)
   while i < collection.length
     yield(collection[i])
     i += 1
-    binding.pry
+    #binding.pry
     end
   end
   collection
